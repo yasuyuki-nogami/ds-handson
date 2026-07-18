@@ -10,7 +10,7 @@ notebooks/
   02_handson_solution.ipynb  ②' 解答版（穴埋めをすべて埋めた講師用）
   03_group_starter.ipynb     ③ グループ自由演習スターター
   03_group_example.ipynb     ③' 模範グループワーク例（完成サンプル）
-  04_advanced.ipynb          ④ 発展デモ（③の別案・実行するだけ）：クラスタリング/回帰予測/因果推論
+  04_advanced.ipynb          ④ 発展デモ（③の別案・実行するだけ）：クラスタリング/主成分分析(PCA)/回帰予測/因果推論
 ANSWERS.md                   ①②の穴埋めの答え＋②の応用例集（コピペで動く事例集）
 data/
   prefecture.csv             47都道府県 人口・面積（国勢調査2020・実データ）
