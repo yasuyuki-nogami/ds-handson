@@ -6,7 +6,8 @@
 配布物（受講者が使うもの）
 - ノート：`01_kiso.ipynb`（座学）/ `02_handson.ipynb`（演習）/ `03_group_starter.ipynb`（グループ）
 - データ：`data/` の4つのCSV（`DATA_GUIDE.md` 参照）
-- 穴埋めの答え：`ANSWERS.md`（GitHubで表示。ノートは配布せず、答えを見ながら各自入力）
+- 穴埋めの答え（受講者向け）：`ANSWERS.md`（GitHubで表示。答えを見ながら各自入力）
+- 講師用：`02_handson_solution.ipynb`（②の穴埋めをすべて埋めた解答版）
 
 事前準備（講師）
 - [ ] Googleアカウントでログインできるか確認（Colabに必要）
@@ -42,7 +43,7 @@
 | 1:55–2:00 | 相関≠因果の議論 | 交絡の例を一つ挙げる |
 
 進め方のコツ
-- 穴埋めは「まず自分で→詰まったら `ANSWERS.md`」。GitHubの ANSWERS.md を投影/共有しておくとよい。
+- 穴埋めは「まず自分で→詰まったら `ANSWERS.md`」。GitHubの ANSWERS.md を投影/共有しておくとよい。講師は `02_handson_solution.ipynb` を手元に。
 - 早く終わった人には「別の列で同じ分析をやってみて」と促す。
 
 ### 3時間目（2:00–3:00）グループ自由演習＋発表 …『03_group_starter.ipynb』
