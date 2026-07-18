@@ -19,11 +19,22 @@ FACILITATION_GUIDE.md        3時間の進行台本（講師用）
 slide_prompt.txt             発表スライドをAIで作るためのプロンプト
 ```
 
+## Colabで開く（オーナー向け・ワンクリック）
+> privateリポなので、初回はColabのGitHub連携の認可が必要です（リポにアクセスできるアカウントで）。
+- ① 座学: https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/01_kiso.ipynb
+- ② 演習: https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/02_handson.ipynb
+- ②' 解答: https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/02_handson_solution.ipynb
+- ③ グループ: https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/03_group_starter.ipynb
+
 ## 使い方（かんたん）
 1. Google Colab（https://colab.research.google.com/ ）を開く。
-2. `notebooks/` の .ipynb をアップロード（または GitHub から開く）。
+2. `notebooks/` の .ipynb をアップロード（または上の「Colabで開く」リンク）。
 3. 上のセルから順に **Shift+Enter** で実行。
-4. データは各ノート最初の `load()` が読み込みます（`DATA_GUIDE.md` 参照）。
+4. データは各ノート最初の `load()` が読み込みます（既定は手動アップロード。`DATA_GUIDE.md` 参照）。
+
+## 受講者への配布（Chromebook）
+privateリポの raw URL はトークンが必要なため、受講者への自動ダウンロードには不向きです。
+当日は **`data/` のCSVを配って手動アップロード**、または **Google Drive共有** が確実です。
 
 ## 3時間の流れ
 - 1時間目：基礎を写経で（`01_kiso.ipynb`）
