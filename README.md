@@ -17,7 +17,12 @@ data/
   school_health.csv          年齢別 平均身長・体重（学校保健統計・実データ整理）
   gakuryoku_lifestyle.csv    生活習慣×平均正答率（全国学力調査・整理）
   class_sample.csv           生徒360人の練習用サンプル（架空データ）
-DATA_GUIDE.md                データ説明書＋配布方法
+data_official/               e-Stat公式APIから実際にDLした実データ（別ファイル名で保存）
+  prefecture_estat2020.csv   47都道府県 人口・面積・人口密度（令和2年国勢調査）
+  school_health_estat2019.csv 年齢別・男女別 平均身長・体重（学校保健統計 2019年度）
+  raw/*.json                 APIの生レスポンス（記録用）
+scripts/fetch_estat.py       上記を再取得する再現スクリプト（要 ESTAT_APP_ID）
+DATA_GUIDE.md                データ説明書＋配布方法＋公式実データの出典
 FACILITATION_GUIDE.md        3時間の進行台本（講師用）
 slide_prompt.txt             発表スライドをAIで作るためのプロンプト
 ```
