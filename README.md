@@ -2,6 +2,25 @@
 
 Chromebook + Google Colab だけで動く、日本の公開データを使ったハンズオン一式です。
 
+## 受講者クイックスタート（当日はここをクリックするだけ）
+
+下のボタンを押すと、そのままGoogle Colabで開きます。開いたら上部メニューの
+**「ランタイム」→「すべてのセルを実行」**（またはセルを **Shift+Enter**）で進めます。
+
+| ノート | 開く |
+|---|---|
+| ① 基礎編 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/01_kiso.ipynb) |
+| ② 応用ハンズオン（穴埋め）| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/02_handson.ipynb) |
+| ③ グループ自由演習 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/03_group_starter.ipynb) |
+| ④ 発展デモ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yasuyuki-nogami/ds-handson/blob/main/notebooks/04_advanced.ipynb) |
+
+**受講者が用意するもの**：Googleアカウント（Colab用）だけ。**GitHubのアカウント・ログイン・フォークは不要**、CSVの手動アップロードも不要です（データは公開rawから自動で読み込まれます）。
+
+- 自分の書き込みを残したいとき：Colabの **「ファイル」→「ドライブにコピーを保存」**（元リポジトリには影響しません）。
+- 事前準備の必要はありません。当日この README を開いて上のボタンを押すだけです。
+
+> ⚠️ 上のボタンが動くのは **リポジトリが Public の間だけ** です。当日開始前にPublicへ切り替え、終了後にPrivateへ戻してください（切替手順は下部）。
+
 ## 中身
 ```
 notebooks/
